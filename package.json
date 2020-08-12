@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@midwayjs/faas": "*"
+    "@midwayjs/faas": "*",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
