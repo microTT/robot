@@ -5,7 +5,7 @@ provider:
 
 functions:
   water:                              # functionName
-    handler: index.handler            # handler name
+    handler: water.handler            # handler name
     events:                           # function events
       - http:
           method: get
